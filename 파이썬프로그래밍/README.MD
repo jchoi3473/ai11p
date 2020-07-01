@@ -9,7 +9,7 @@ Python 3.7 의 <br>
 
 
 
-### PyChram 다운로드
+### PyCharm 다운로드
 https://www.jetbrains.com/ko-kr/pycharm/download/#section=windows
 
 
