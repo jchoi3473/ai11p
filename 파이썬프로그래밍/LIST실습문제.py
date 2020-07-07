@@ -11,8 +11,8 @@ index = op_select - 1
 result = eval( number1 + op[ index ] + number2 )
 
 print()
-print( 'number1 : {0:^8.2}'.format( number1 ) )
-print( 'number2 : {0:^8.2}'.format( number2 ) )
+print( 'number1 : {0:^6}'.format( number1 ) )
+print( 'number2 : {0:^6}'.format( number2 ) )
 print( '{0:^6} {2:^3} {1:^6} = {3:<.2f}'.format(
     number1, number2, op[ index ], result ) )
 
