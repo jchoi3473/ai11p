@@ -122,8 +122,8 @@ while True:
 
     result = eval(number1 + op[op_select] + number2)
 
-    print('number1 : {0:^8.2}'.format(number1))
-    print('number2 : {0:^8.2}'.format(number2))
+    print('number1 : {0:^6}'.format(number1))
+    print('number2 : {0:^6}'.format(number2))
     print('{0:^6} {2:^3} {1:^6} = {3:<.2f}\n'.format(number1, number2, op[op_select], result))
 
 
