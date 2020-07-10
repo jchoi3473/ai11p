@@ -14,8 +14,8 @@ class Calc:
         return self.c
 
     def subtract(self,a,b):
-        self.a = a
-        self.b = b
+        self.a = b
+        self.b = a
         self.c = self.a - self.b
         return self.c
 
